@@ -1,0 +1,1 @@
+This React component uses the wrong lifecycle method for updating the state based on prop changes.  It uses `componentDidMount` which only runs once after the component mounts, not whenever the props change.  Therefore, the state doesn't reflect changes in the `props.name` prop.
