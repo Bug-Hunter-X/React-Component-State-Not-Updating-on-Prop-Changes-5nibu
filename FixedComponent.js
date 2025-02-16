@@ -1,0 +1,1 @@
+This component now correctly updates its state based on prop changes by using `componentDidUpdate`.  It checks if the name prop has changed before updating the state.  Additionally, it also has an efficient check to prevent unnecessary re-renders and state updates when the prop remains the same.
